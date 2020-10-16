@@ -1,0 +1,81 @@
+img {
+	width: 152px;
+	height: 152px;
+	border-radius: 50%;
+	position: relative;
+}
+.gridWrapper {
+	display: grid;
+	grid-template-areas: 'header header header header header header' 'menu main main main main main' 'footer footer footer footer footer footer';
+	grid-gap: 1px;
+	background-color: pink;
+}
+.item1 {
+	grid-area: header;
+}
+.item2 {
+	grid-area: menu;
+}
+.item3 {
+	grid-area: main;
+	text-align: center;
+}
+.item4 {
+	grid-area: footer;
+}
+.gridWrapper>div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: auto;
+	padding: 20px 0;
+	font-size: 30px;
+}
+address {
+	display: block;
+	font-style: italic;
+}
+#nav ul {
+	list-style-type: none;
+	margin: 0%;
+	padding: 0%;
+}
+li {
+	display: inline;
+}
+.fa {
+	padding: 10px;
+	font-size: 20px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+.fa:hover {
+	opacity: 0.7;
+}
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+.fa-github {
+	background: gray;
+	color: white;
+}
+.fa-instagram {
+	background: #bf00ff;
+	color: #ffff;
+}
+#contactInformation {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 15px;
+}
+.top-left {
+	font-size: 20px;
+}
